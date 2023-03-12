@@ -67,9 +67,7 @@ with open('processed.json', mode='w', encoding = 'utf-8') as json_file:
         
         
 
-for obj in dict_list:
-    if obj["First Name"] == 'Reece':
-        print(obj['Address']['PostCode'])
+
 
         
 
